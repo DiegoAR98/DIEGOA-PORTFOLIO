@@ -1,5 +1,5 @@
 import React from "react";
-import './Project.css'; // Style your project component as needed
+import './Project.css';
 
 function Project({ title, description, imageUrl, liveUrl, repoUrl }) {
   return (
