@@ -30,5 +30,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Deployment
 
-This application is deployed on Heroku.[Click here](https://diegoaraujo.netlify.app/resume) to view the project on Heroku.
+This application is deployed on Heroku.[Click here](https://diegoaraujo.netlify.app/) to view the project on Netlify.
 
