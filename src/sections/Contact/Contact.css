@@ -1,15 +1,58 @@
-section {
-    padding: 2rem;
+/* Contact.css */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Limits the width of the form */
+  width: 100%; /* Makes the form width responsive */
+  margin: 1rem auto; /* Centers the form in the page */
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  border-radius: 5px; /* Rounds the corners */
+  background: #ffffff; /* Change this if your portfolio has different colors */
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd; /* Adds a subtle border */
+  border-radius: 4px; /* Slightly rounds the input fields */
+  font-size: 1rem; /* Ensures text is easily readable */
+}
+
+.contact-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333; /* Dark background for the button */
+  color: #fff; /* Light text for contrast */
+  cursor: pointer; /* Changes cursor to indicate button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contact-form button:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
+
+/* Mobile-first styles */
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%; /* Gives some padding on smaller screens */
   }
-  
-  section h2 {
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  section p, section li, section form {
-    color: #666;
-  }
-  
-  /* more specific styles coming as needed for each section */
-  
+}
+
+/* Styles to match the rest of your site */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #646cff; /* Color to match your site theme */
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.5); /* Subtle focus effect */
+}
+
+/* Add styles for label if you decide to use them */
+.contact-form label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}

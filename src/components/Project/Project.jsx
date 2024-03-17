@@ -1,3 +1,6 @@
+import React from "react";
+import './Project.css';
+
 function Project({ title, description, imageUrl, liveUrl, repoUrl }) {
   return (
     <div className="project">
@@ -9,3 +12,6 @@ function Project({ title, description, imageUrl, liveUrl, repoUrl }) {
     </div>
   );
 }
+
+
+export default Project;
