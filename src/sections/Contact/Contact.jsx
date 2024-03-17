@@ -1,3 +1,4 @@
+// Contact.jsx
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
@@ -19,14 +20,12 @@ function Contact() {
   };
 
   return (
-    <div className="contact-container"> {/* Add this container */}
-      <form ref={form} onSubmit={sendEmail} className="contact-form">
-        <input type="text" name="user_name" required placeholder="Your Name" />
-        <input type="email" name="user_email" required placeholder="Your Email" />
-        <textarea name="message" required placeholder="Your Message"></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
+    <form ref={form} onSubmit={sendEmail} className="contact-form"> {/* Add this class here */}
+      <input type="text" name="user_name" required placeholder="Your Name" />
+      <input type="email" name="user_email" required placeholder="Your Email" />
+      <textarea name="message" required placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
   );
 }
 

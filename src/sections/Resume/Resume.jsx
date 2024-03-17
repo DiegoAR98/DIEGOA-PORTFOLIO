@@ -3,13 +3,11 @@ import './Resume.css';
 
 function Resume() {
   const frontEndSkills = [
-    "HTML & CSS", 
-    "Advanced CSS", 
+    "HTML & CSS",  
     "JavaScript ES6+", 
     "Bootstrap", 
     "JQuery",
     "React", 
-    "State", 
     "Progressive Web Applications (PWA)"
   ];
 
@@ -20,20 +18,18 @@ function Resume() {
     "Web APIs",
     "Third-Party APIs",
     "MongoDB", 
-    "MySQL", 
-    "NoSQL", 
+    "MySQL",  
     "Object-Relational Mapping (ORM)", 
     "Model-View-Controller (MVC)", 
     "GraphQL", 
-    "Sequelize"
   ];
 
   const devOpsAndMore = [
+    "MERN",
     "Git", 
     "Heroku", 
     "Netlify", 
-    "Agile development",
-    "MERN"
+    "Agile development"
   ];
 
   const otherSkills = [

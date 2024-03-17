@@ -1,0 +1,15 @@
+footer {
+    background-color: var(--color-background);
+    color: var(--color-text-light);
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: var(--shadow);
+  }
+
+  footer a {
+    margin: 0 10px; /* Adds 10px margin on the left and right of each link */
+  }
