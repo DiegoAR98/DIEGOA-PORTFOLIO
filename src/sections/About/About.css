@@ -1,0 +1,15 @@
+section {
+    padding: 2rem;
+  }
+  
+  section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  section p, section li, section form {
+    color: #666;
+  }
+  
+  /* more specific styles coming as needed for each section */
+  

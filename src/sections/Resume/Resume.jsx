@@ -1,5 +1,6 @@
-import React from "react";
-import './Resume.css'; // Style your resume section as needed
+
+import React from 'react';
+import './Resume.css'; 
 
 function Resume() {
   return (
