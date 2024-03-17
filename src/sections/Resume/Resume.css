@@ -1,15 +1,65 @@
-section {
-    padding: 2rem;
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centering content */
+  padding: 2rem;
+  text-align: center; /* Align text to the center for all children */
+  background-color: #f8f9fa; /* Assuming a light grey background; change as needed */
+  color: #333;
+}
+
+.resume h2 {
+  font-size: 2.5rem; /* Larger font size for headings */
+  color: #333;
+  margin: 1rem 0;
+}
+
+.resume a {
+  display: inline-block;
+  background-color: #007bff; /* Button color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-weight: bold; /* Bold font for the resume link */
+  margin-bottom: 2rem; /* Space before the proficiencies */
+}
+
+.resume a:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.resume h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.resume ul {
+  list-style-type: none; /* Removing the default list style */
+  padding: 0; /* Removing default padding */
+}
+
+.resume li {
+  background-color: #fff; /* List item background color */
+  color: #333;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Subtle border for list items */
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 1rem; /* Less padding on smaller screens */
   }
-  
-  section h2 {
-    color: #333;
-    margin-bottom: 1rem;
+
+  .resume h2 {
+    font-size: 2rem; /* Slightly smaller font size for headings */
   }
-  
-  section p, section li, section form {
-    color: #666;
+
+  .resume h3 {
+    font-size: 1.5rem;
   }
-  
-  /* more specific styles coming as needed for each section */
-  
+}

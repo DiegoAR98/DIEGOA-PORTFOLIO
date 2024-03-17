@@ -6,7 +6,7 @@ import About from "./sections/About/About";
 import Portfolio from "./sections/Portfolio/Portfolio";
 import Contact from "./sections/Contact/Contact";
 import Resume from "./sections/Resume/Resume";
-
+import './App.css';
 
 function App() {
   return (

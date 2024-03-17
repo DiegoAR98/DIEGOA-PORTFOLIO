@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../../components/Project/Project";
-import './Portfolio.css'; // coming
+import './Portfolio.css'; 
 
 function Portfolio() {
   const projects = [
@@ -27,12 +27,25 @@ function Portfolio() {
     },
     {
       title: "National Parks: A Quintet of Natural Wonders",
-      description: "National Parks: A Quintet of Natural Wonders is a web app for exploring and planning trips to the top 5 US national parks. Packed with detailed info and trip tips, it's your go-to for unforgettable outdoor adventures, whether you're a seasoned traveler or a novice explorer..",
+      description: "National Parks: A Quintet of Natural Wonders is a web app for exploring and planning trips to the top 5 US national parks. Packed with detailed info and trip tips, it's your go-to for unforgettable outdoor adventures, whether you're a seasoned traveler or a novice explorer.",
       imageUrl: "https://github.com/DiegoAR98/Project-1/blob/main/assets/project-ss.png?raw=true",
       liveUrl: "https://diegoar98.github.io/Project-1/",
       repoUrl: "https://github.com/DiegoAR98/Project-1?tab=readme-ov-file",
     },
-            
+    {
+      title: "Weather Dashboard",
+      description: "The Weather Dashboard is a comprehensive web application designed for travelers who wish to plan their trips by checking the weather outlook for multiple cities. This interactive tool provides both current and future weather conditions, allowing users to make informed decisions about their travel plans.",
+      imageUrl: "https://github.com/DiegoAR98/Weather-Dashboard/blob/main/assets/Screenshot%202023-11-23%20112806.jpg?raw=true",
+      liveUrl: "https://diegoar98.github.io/Weather-Dashboard/",
+      repoUrl: "https://github.com/DiegoAR98/Weather-Dashboard?tab=readme-ov-file",
+    },
+    {
+      title: "Work Day Scheduler",
+      description: "Daily Planner is a simple, intuitive, and effective tool designed for personal and professional time management. This application provides an easy-to-use interface to add and track events or tasks during standard business hours. It dynamically updates to indicate past, present, and future time blocks, enhancing productivity and time management.",
+      imageUrl: "https://github.com/DiegoAR98/Work-Day-Scheduler/blob/main/Assets/Screenshot%202023-11-17%20172857.jpg?raw=true",
+      liveUrl: "https://diegoar98.github.io/Work-Day-Scheduler/",
+      repoUrl: "https://github.com/DiegoAR98/Work-Day-Scheduler?tab=readme-ov-file",
+    },
   ];
 
   return (

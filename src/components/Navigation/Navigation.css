@@ -1,18 +1,31 @@
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
   
   nav a {
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: var(--color-primary); /* Color for normal state */
+    background: var(--color-background); /* Background for normal state */
     text-decoration: none;
-    color: #007bff;
-    font-size: 1rem;
+    transition: color 0.3s, background-color 0.3s;
   }
   
   nav a:hover {
-    color: #0056b3;
+    color: var(--color-text-light);
+    background-color: var(--color-primary-dark);
   }
   
+  nav .active {
+    color: var(--color-text-light); /* Light color text for active state */
+    background-color: var(--color-primary); /* Blue background for active state */
+    font-weight: bold; /* Make the active link bold */
+    pointer-events: none; /* Disable pointer events so it doesn't hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }

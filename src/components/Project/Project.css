@@ -20,9 +20,11 @@
 }
 
 .project img {
-  width: 80%; /* Responsive width */
-  max-width: 400px; /* Max width */
+  width: 100%; /* Set a percentage width for responsiveness */
+  max-width: 300px; /* Maximum width for all images */
   height: auto; /* Maintain aspect ratio */
+  border: 3px solid #ddd; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
   margin-bottom: 1rem; /* Space between image and text */
 }
 
@@ -64,9 +66,15 @@
   }
 
   .project img {
-    width: 50%; /* Half width */
-    margin-bottom: 0; /* Reset bottom margin */
+    display: block; /* Ensures the margin auto is effective for centering */
+    width: 300px; /* Set a fixed width for all images */
+    height: 200px; /* Set a fixed height for all images */
+    max-width: 400px; /* Max width */
+    height: 200px; /* Fixed height for the container */
+    margin: auto; /* Centers the image in the allotted space */
+    margin-bottom: 1rem; /* Space between image and text */
   }
+  
 
   .project p {
     text-align: left; /* Align text to the left */
