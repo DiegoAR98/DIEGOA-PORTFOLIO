@@ -4,7 +4,12 @@ section {
   
   section h2 {
     color: #333;
+    font-size: 28px; /* Adjust the size as needed */
+    font-family: 'Helvetica', sans-serif; /* Gives a nice, clean title style */
+    font-weight: bold; /* Makes the title bold */
+    text-align: center; /* Ensures the text itself is centered if it wraps to a new line */
     margin-bottom: 1rem;
+    margin-top: 0; /* Removes the default top margin for precise centering */
   }
   
   section p, section li, section form {
