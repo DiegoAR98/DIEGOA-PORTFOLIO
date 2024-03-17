@@ -1,15 +1,63 @@
-section {
-    padding: 2rem;
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1rem; /* Adds space between your elements */
+}
+
+.about img {
+  width: 200px; /* Start with a small image for mobile */
+  height: 200px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image covers the space without distortion */
+  border: 3px solid #333; /* Adds a solid border around the image */
+}
+
+
+.about p {
+  color: #665;
+  font-size: 1rem; /* Readable text size for mobile */
+  line-height: 1.6; /* Increased line-height for readability */
+  max-width: 90%; /* Limits the width of paragraphs for better readability */
+  margin-bottom: 1rem;
+}
+
+/* Responsive design for tablets and up */
+@media (min-width: 768px) {
+  .about {
+    text-align: left;
+    align-items: flex-start;
   }
-  
-  section h2 {
-    color: #333;
-    margin-bottom: 1rem;
+
+  .about img {
+    width: 300px; /* Larger image for tablets */
+    height: 300px;
   }
-  
-  section p, section li, section form {
-    color: #666;
+
+  .about p {
+    max-width: 80%; /* Slightly more narrow paragraphs for larger screens */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
   }
-  
-  /* more specific styles coming as needed for each section */
-  
+}
+
+/* Responsive design for desktops */
+@media (min-width: 1024px) {
+  .about {
+    flex-direction: row; /* Side-by-side layout for larger screens */
+    justify-content: center;
+    gap: 2rem; /* More space between image and text */
+  }
+
+  .about img {
+    width: 400px; /* Even larger image for desktops */
+    height: 400px;
+  }
+
+  .about p {
+    max-width: 50%; /* Narrower paragraphs for a more focused reading area */
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+}
